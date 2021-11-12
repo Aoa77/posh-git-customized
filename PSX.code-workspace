@@ -1,0 +1,39 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/build": true,
+            "**/build/dev": true,
+            "**/build/prod": true,
+            "**/dependencies": true,
+            "**/node_modules": true,
+            "package-lock.json": false
+        },
+        "search.exclude": {
+            "**/.git": true,
+            "**/build": true,
+            "**/build/dev": true,
+            "**/build/prod": true,
+            "**/dependencies": true,
+            "**/node_modules": true,
+            "package-lock.json": true
+        },
+        "window.title": "${rootName}"
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "PowerShell Interactive Session",
+                "type": "PowerShell",
+                "request": "launch",
+                "cwd": ""
+            },
+        ]
+    }
+}
